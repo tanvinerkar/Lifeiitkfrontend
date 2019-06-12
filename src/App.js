@@ -4,6 +4,7 @@ import "./App.css";
 import SideBar from "./components/sidebar/sidebar";
 import TopBar from "./components/topbar/topbar";
 import Main from "./components/main";
+import ProfilePic from "./components/profileUI/profilePic"
 
 class App extends Component {
   // 'icon' property in pages is the FontAwesome icon name.
@@ -19,7 +20,7 @@ class App extends Component {
         { name: "Profile", icon: "user" }
       ],
       activePage: 0,
-      sidebarActive: true
+      sidebarActive: false
     };
   }
 
@@ -50,6 +51,7 @@ class App extends Component {
           page={this.state.pages[this.state.activePage]}
           sidebarActive={this.state.sidebarActive}
         />
+        {/* <ProfilePic /> */}
       </React.Fragment>
     );
   }

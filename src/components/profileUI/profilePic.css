@@ -1,0 +1,9 @@
+.profile-pic {
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.profile-pic img{
+    height: 150px;
+    width: 120px;
+}

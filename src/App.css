@@ -1,5 +1,6 @@
 @import "./components/sidebar/sidebar.css";
 @import "./components/topbar/topbar.css";
+@import "./components/profileUI/profilePic.css";
 
 :root {
   /* Sidebar variables */
@@ -9,8 +10,8 @@
   --sidebar-content-color: #c9c9c9;
   /* Topbar variables */
   --topbar-height: 50px;
-  --topbar-bg-color: #0059ff;
-  --topbar-dark-color: #004cd8;
+  --topbar-bg-color: rgb(37, 85, 207);
+  --topbar-dark-color: rgb(11, 60, 184);
 }
 
 /* CSS FOR MAIN BODY WRAPPER */
