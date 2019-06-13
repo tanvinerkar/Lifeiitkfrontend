@@ -1,17 +1,17 @@
 @import "./components/sidebar/sidebar.css";
 @import "./components/topbar/topbar.css";
-@import "./components/profileUI/profilePic.css";
+/* @import "./components/profileUI/profilePic.css"; */
 
 :root {
   /* Sidebar variables */
   --sidebar-width: 125px;
-  --sidebar-bg-color: #354052;
-  --sidebar-dark-color: #2b3444;
+  --sidebar-bg-color: #1a0b4e;
+  --sidebar-dark-color: #0f0531;
   --sidebar-content-color: #c9c9c9;
   /* Topbar variables */
   --topbar-height: 50px;
-  --topbar-bg-color: rgb(37, 85, 207);
-  --topbar-dark-color: rgb(11, 60, 184);
+  --topbar-bg-color: #2e1064;
+  --topbar-dark-color: #1d0649;
 }
 
 /* CSS FOR MAIN BODY WRAPPER */

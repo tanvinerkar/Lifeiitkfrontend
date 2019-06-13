@@ -4,7 +4,7 @@ import "./App.css";
 import SideBar from "./components/sidebar/sidebar";
 import TopBar from "./components/topbar/topbar";
 import Main from "./components/main";
-import ProfilePic from "./components/profileUI/profilePic"
+// import ProfilePic from "./components/profileUI/profilePic"
 
 class App extends Component {
   // 'icon' property in pages is the FontAwesome icon name.
