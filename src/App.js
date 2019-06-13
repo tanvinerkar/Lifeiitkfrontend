@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import logo from "./logo.svg";
 import "./App.css";
 import SideBar from "./components/sidebar/sidebar";
 import TopBar from "./components/topbar/topbar";
@@ -19,7 +18,7 @@ class App extends Component {
         { name: "Profile", icon: "user" }
       ],
       activePage: 0,
-      sidebarActive: true
+      sidebarActive: false
     };
   }
 
@@ -50,6 +49,7 @@ class App extends Component {
           page={this.state.pages[this.state.activePage]}
           sidebarActive={this.state.sidebarActive}
         />
+        {/* <ProfilePic /> */}
       </React.Fragment>
     );
   }
