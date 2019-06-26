@@ -12,6 +12,9 @@ const useStyles = makeStyles({
     marginLeft: 20,
     marginBottom: 1,
   },
+  typo: {
+    marginBottom: 5,
+  }
 });
 
 export default function Por() {
@@ -28,7 +31,7 @@ export default function Por() {
   return (
     <Card className={classes.card}>
       <CardContent>
-        <Typography variant="h5" component="h2">
+        <Typography variant="h5" component="h2" className={classes.typo}>
           Positions Of Responsibility
         </Typography>
         <Grid container 
@@ -37,10 +40,10 @@ export default function Por() {
             spacing = {1}
             fullWidth
         >
-            <Grid item>
+            <Grid item justify="center">
             <BadgeIcon />
             </Grid>
-            <Grid item>
+            <Grid item justify="center">
                 Secretary, Programming Club
             </Grid>
         </Grid>  
@@ -50,10 +53,10 @@ export default function Por() {
             spacing = {1}
             fullWidth
         >
-            <Grid item>
+            <Grid item justify="center">
             <BadgeIcon />
             </Grid>
-            <Grid item>
+            <Grid item justify="center">
                 Secretary, Aeromodelling Club
             </Grid>
         </Grid>  

@@ -7,6 +7,7 @@ import profileIcon from './profileIcon.png';
 import SvgIcon from '@material-ui/core/SvgIcon';
 import { Typography, Button } from '@material-ui/core';
 import Por from './por/por';
+import Tags from './tags/tags';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -204,9 +205,12 @@ export default function Profile() {
             </Paper>
           </Grid>          
         </Grid>
-        <Grid>
+        <Grid direction="column">
           <Grid item>
             <Por />
+          </Grid>
+          <Grid item>
+            <Tags />
           </Grid>
         </Grid>    
 
